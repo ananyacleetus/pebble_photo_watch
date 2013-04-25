@@ -1,0 +1,46 @@
+
+{"friendlyVersion": "1.0",
+ "versionDefName": "CK_PHOTO_WATCH",
+ "media": [
+	   {
+	    "type":"raw",
+	    "defName":"DUMMY",
+	    "file":"resource_map.json"
+	   },
+	   {
+	    "type":"png",
+	    "defName":"IMAGE_1",
+	    "file":"images/sw1.png"
+	   },
+	   {
+	    "type":"png",
+	    "defName":"IMAGE_2",
+	    "file":"images/sw2.png"
+	   },
+	   {
+	    "type":"png",
+	    "defName":"IMAGE_3",
+	    "file":"images/sw3.png"
+	   },
+	   {
+	    "type":"png",
+	    "defName":"IMAGE_4",
+	    "file":"images/sw4.png"
+	   },
+	   {
+	    "type":"png",
+	    "defName":"IMAGE_5",
+	    "file":"images/sw5.png"
+	   },
+	   {
+	    "type":"png",
+	    "defName":"IMAGE_6",
+	    "file":"images/sw6.png"
+	   },
+	   {
+	    "type":"png",
+	    "defName":"IMAGE_7",
+	    "file":"images/sw7.png"
+	   }
+	  ]
+}
