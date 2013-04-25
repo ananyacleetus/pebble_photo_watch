@@ -101,7 +101,7 @@ int get_image_id(int hours, int minutes) {
 
 
 void imageLayer_update_callback(Layer *me, GContext* ctx ) {
-  graphics_context_set_stroke_color(ctx, GColorBlack); // TODO: Needed?
+  graphics_context_set_stroke_color(ctx, GColorBlack);
   graphics_context_set_fill_color(ctx, GColorBlack);
 
   graphics_fill_rect(ctx, GRect(0, 0, me->bounds.size.w, me->bounds.size.h), 0, GCornerNone);
@@ -111,7 +111,7 @@ void imageLayer_update_callback(Layer *me, GContext* ctx ) {
 
 
 void textBackgroundLayer_update_callback(Layer *me, GContext* ctx ) {
-  graphics_context_set_stroke_color(ctx, GColorBlack); // TODO: Needed?
+  graphics_context_set_stroke_color(ctx, GColorBlack); 
   graphics_context_set_fill_color(ctx, GColorBlack);
 
   graphics_fill_rect(ctx, GRect(0, 0, me->bounds.size.w, me->bounds.size.h), 0, GCornerNone);
