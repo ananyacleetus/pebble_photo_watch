@@ -192,10 +192,7 @@ void update_image(PblTm *tickTime) {
 
 // updates the date
 void update_date_text(PblTm *tickTime) {
-  //
-  // set the date - only changing it when the day changes
-  // format strings here: http://www.gnu.org/software/emacs/manual/html_node/elisp/Time-Parsing.html
-  //
+  // http://www.gnu.org/software/emacs/manual/html_node/elisp/Time-Parsing.html
 
   static char dateText[] = "XXX 00";
   static char dayText[] = "XXX";
