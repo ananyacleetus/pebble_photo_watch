@@ -17,6 +17,8 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 %%%%%%%%%%%%%%%%%%%%%
 
+- Look for the tag #CK for where to modify the watchface for your own custom images
+
 */
 
 #include "pebble_os.h"
@@ -33,6 +35,7 @@ PBL_APP_INFO(MY_UUID,
              DEFAULT_MENU_ICON,
              APP_INFO_WATCH_FACE);
 
+// #CK - Set image count here
 #define IMAGE_COUNT 7
 
 #define SCREEN_WIDTH 144
@@ -79,6 +82,7 @@ int get_image_id(int hours, int minutes) {
   int imageResourceID = RESOURCE_ID_IMAGE_1;
   
   switch (someValue) {
+    // #CK - Set image resources here
     case 0: imageResourceID = RESOURCE_ID_IMAGE_1; break;
     case 1: imageResourceID = RESOURCE_ID_IMAGE_2; break;
     case 2: imageResourceID = RESOURCE_ID_IMAGE_3; break;
